@@ -1,0 +1,114 @@
+header{
+    position: absolute; /* todas as propriedades vão ser em relação ao section agora */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    max-width: 80px;
+    margin-left: 20px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+section{
+    position: relative; /* tudo que estiver dentro do section vai ser relativo a ele quando aplicarmos absolute = */ 
+    width: 100%;
+    min-height: 100vh; /* altura do section vai ocupar no mimino a tela tola*/
+    padding:15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #d6f6ff4b;
+}
+.conteiner{
+ 
+    position: relative;
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.conteiner .imgBox{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner .imgBox img{
+  width: 250px;
+}
+
+.conteiner .textBox{
+    position: relative;
+    max-width: 600px;
+
+}
+
+.conteiner .textBox h1{
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.conteiner .textBox p{
+    text-align: justify;
+}
+
+/* .conteiner .textBox .button{
+    display: flex;
+    justify-content: center;
+} */
+
+.conteiner .textBox .button a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #35A7FF;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.conteiner .textBox .button a:hover{
+    color: #D6F6FF;
+    background-color: #2682DB;
+    transition: 0.5s;
+}
+
+header ul li a:hover{
+    color: #1A61B7;
+}
+
+
