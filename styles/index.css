@@ -1,7 +1,7 @@
 ul :nth-child(1) a {
     color: #1A61B7 !important;
 }
-.conteiner{
+.content{
  
     position: relative;
     width: 100%;
@@ -11,30 +11,30 @@ ul :nth-child(1) a {
     justify-content: space-between;
 }
 
-.conteiner .imgBox{
+.content .imgBox{
     width: 30%;
     display: flex;
     justify-content: center;
 }
 
-.conteiner .imgBox img{
+.content .imgBox img{
   width: 250px;
 }
 
-.conteiner .textBox{
+.content .textBox{
     position: relative;
     max-width: 600px;
 
 }
 
-.conteiner .textBox h1{
+.content .textBox h1{
     font-size: 4em;
     line-height: 1.5em;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.conteiner .textBox p{
+.content .textBox p{
     text-align: justify;
 }
 
@@ -43,7 +43,7 @@ ul :nth-child(1) a {
     justify-content: center;
 } */
 
-.conteiner .textBox .button a{
+.content .textBox .button a{
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
@@ -56,7 +56,7 @@ ul :nth-child(1) a {
     text-transform: uppercase;
 }
 
-.conteiner .textBox .button a:hover{
+.content .textBox .button a:hover{
     color: #D6F6FF;
     background-color: #2682DB;
     transition: 0.5s;
