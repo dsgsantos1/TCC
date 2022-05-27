@@ -44,6 +44,11 @@ header ul li a{
     text-decoration: none;
 }
 
+/* header ul li a:hover{
+    color: #1A61B7;
+} */
+
+
 section{
     position: relative; /* tudo que estiver dentro do section vai ser relativo a ele quando aplicarmos absolute = */ 
     width: 100%;
