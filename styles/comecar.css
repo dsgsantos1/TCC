@@ -1,3 +1,81 @@
 ul :nth-child(2) a {
     color: #1A61B7 !important;
 }
+
+.title{
+    padding-top: -500px;
+    
+    padding-bottom: 100px;
+    margin-top: -30rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+}
+
+.title{
+    padding-top: 50px;
+    /* padding-bottom: 100px; */
+    /* margin-top: 30  rem; */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+}
+
+.title h1{
+    text-transform: uppercase;
+    color: #111;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 500;
+    
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    margin-top: -10em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+
+
+
+.content .textBox h2{
+    color: #111;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.content .textBox h2 span{
+    font-size: 2em;
+}
+
+.content .textBox p{
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.829);
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    /* padding-right: 50px; */
+    /* margin-top: 0px; */
+    justify-content: flex-end;
+}
+
+.content .imgBox img{
+    max-width: 450px;
+    border-radius: 20px;
+}
