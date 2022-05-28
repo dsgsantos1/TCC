@@ -12,10 +12,11 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 0px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: #b1e2ff63; */
 }
 
 header .logo{
