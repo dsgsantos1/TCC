@@ -82,3 +82,18 @@ ul :nth-child(5) a {
     max-width: 450px;
     border-radius: 20px;
 }
+.content-1{
+    background-color: aqua;
+}
+.content-1 .textBox p{
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.829);
+    text-align: justify;
+    line-height: 1.6em;
+    margin-top: 15px;
+    width: 50%;
+}
+.content-1 .textLink a{
+    text-decoration: none;
+    color: #111;
+}
