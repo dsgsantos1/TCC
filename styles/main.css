@@ -17,7 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    background-color: #b1e2ff63;
+    /* background-color: #b1e2ff63; */
 }
 
 header .logo{
@@ -60,6 +60,6 @@ section{
     flex-wrap: wrap;
     /* justify-content: space-between;
     align-items: center;
-    transition: 0.5s;
-    background-color: #d6f6ff4b; */
+    transition: 0.5s; */
+    background-color: #d6f6ff4b;
 }
