@@ -77,29 +77,32 @@ ul :nth-child(5) a {
     margin-top: 20px;
 }
 
-.content-1 summary {
-    padding-left: 10px;
+.content-1 summary {padding: 10px 0 10px 10px;
+  
+
+    background-color: #35a7ff;
 }
 
 .content-1 details {
     margin-top: 1rem;
     color: #fff;
-    background-color: #35a7ff;
-    /* border-radius: 1px;
-     */
-    /* padding: 0 100px 0 0; */
-    padding: 10px 0;
+
+    border-radius: 5px;
     transition: 0.5s;
+    overflow: hidden;
 }
 
+
 .content-1 details .textBox{
-    background-color: #4dff353f;
+    background-color: #d6f6ff4b;
     padding: 0 1rem;
+    border-radius: 5px;
 }
 .content-1 .textBox p{
     font-weight: 300;
     /* text-indent: 1.5em; */
     color: rgba(0, 0, 0, 0.829);
+
     text-align: justify;
     line-height: 1.6em;
     margin-top: 15px;
@@ -111,33 +114,19 @@ ul :nth-child(5) a {
     flex-direction: column;
     margin: 0 2rem;
 }
+.content-1 li::marker{
+    color: rgba(0, 0, 0, 0.829);
+ 
+}
 
 .content-1 .textLink a{
+    font-weight: 300;
     text-decoration: none;
-    
-    color: rgb(233, 231, 231);
+    color: rgba(0, 0, 0, 0.829)!important;
+
     /* text-decoration: none; */
 }
 
-/* unvisited link */
-a:link {
-    color: red;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
 
 section{
     /* position: relative; tudo que estiver dentro do section vai ser relativo a ele quando aplicarmos absolute =  */

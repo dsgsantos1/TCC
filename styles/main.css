@@ -16,7 +16,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #b1e2ff63; */
+
+    background-color: #b1e2ff63;
 }
 
 header .logo{
