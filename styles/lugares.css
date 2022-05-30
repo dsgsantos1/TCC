@@ -18,13 +18,12 @@ ul :nth-child(5) a {
     font-size: 3em;
     line-height: 1.5em;
     font-weight: 500;
-    
+    margin-top: 4rem;
 }
 
 .content{
     position: relative;
     width: 100%;
-    margin-top: -10em;
     display: flex;
     align-items: center; 
     justify-content: space-between;
@@ -51,24 +50,12 @@ ul :nth-child(5) a {
 
 .content .textBox p{
     font-weight: 300;
+    /* text-indent: 1.5em; */
     color: rgba(0, 0, 0, 0.829);
     text-align: justify;
     line-height: 1.6em;
 }
 
-.content .textBox a{
-    display: inline-block;
-    /* margin-top: 10px; */
-    /* padding: 8px 20px;
-    background-color: #fff;
-    color: #111;
-    border-radius: 40px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase; */
-    
-}
 
 .content .imgBox{
     width: 600px;
@@ -83,17 +70,85 @@ ul :nth-child(5) a {
     border-radius: 20px;
 }
 .content-1{
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-top: 20px;
+}
+
+.content-1 summary {
+    padding-left: 10px;
+}
+
+.content-1 details {
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #35a7ff;
+    /* border-radius: 1px;
+     */
+    /* padding: 0 100px 0 0; */
+    padding: 10px 0;
+    transition: 0.5s;
+}
+
+.content-1 details .textBox{
+    background-color: #4dff353f;
+    padding: 0 1rem;
 }
 .content-1 .textBox p{
     font-weight: 300;
+    /* text-indent: 1.5em; */
     color: rgba(0, 0, 0, 0.829);
     text-align: justify;
     line-height: 1.6em;
     margin-top: 15px;
-    width: 50%;
+    width: 100%;
 }
+
+.content-1 ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
 .content-1 .textLink a{
     text-decoration: none;
-    color: #111;
+    
+    color: rgb(233, 231, 231);
+    /* text-decoration: none; */
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+section{
+    /* position: relative; tudo que estiver dentro do section vai ser relativo a ele quando aplicarmos absolute =  */
+    width: 100%;
+    /* min-height: 100vh; altura do section vai ocupar no mimino a tela tola */
+    /* padding:15px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* transition: 0.5s; */
+    transition: 0.5s;
+    background-color: #d6f6ff4b;
 }

@@ -53,12 +53,12 @@ header ul li a{
 section{
     position: relative; /* tudo que estiver dentro do section vai ser relativo a ele quando aplicarmos absolute = */ 
     width: 100%;
-    min-height: 100vh; /* altura do section vai ocupar no mimino a tela tola*/
+    /* min-height: 100vh; altura do section vai ocupar no mimino a tela tola */
     padding:15px 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between;
     align-items: center;
     transition: 0.5s;
-    background-color: #d6f6ff4b;
+    background-color: #d6f6ff4b; */
 }
