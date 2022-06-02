@@ -64,12 +64,21 @@ ul :nth-child(5) a {
     /* padding-right: 50px; */
     /* margin-top: 0px; */
     justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content .imgBox img{
     max-width: 450px;
     border-radius: 20px;
 }
+
+.content .imgBox span{
+    margin-top: 0.5rem;
+    font-weight: 100;
+    font-size: 0.9em;
+}   
+
 .content-1{
     display: flex;
     flex-direction: column;
