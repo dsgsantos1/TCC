@@ -9,6 +9,7 @@
 
 header{
     position: absolute; /* todas as propriedades vão ser em relação ao section agora */
+    margin-top: 1rem;
     top: 0;
     left: 0;
     width: 100%;
