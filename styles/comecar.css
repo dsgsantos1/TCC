@@ -79,7 +79,7 @@ ul :nth-child(2) a {
 
 .content1{
     width: 100%;
-    /* margin-bottom: 1.5rem; */
+    margin-bottom: 1.5rem;
 }
 .content1  h2{
     color: #111;
@@ -126,6 +126,21 @@ ul :nth-child(2) a {
     font-weight: 400;
 }
 
+.content1 .caption{
+    display: flex;
+    /* background-color: rebeccapurple; */
+}
+.content1 .caption h2{
+    font-size: 1.6rem;
+    width: fit-content;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(53,167,255,1) 16%, rgba(71,181,223,1) 25%, rgba(100,203,173,1) 53%, rgba(169,255,53,1) 88%, rgba(169,255,53,1) 94%);
+
+}
+
+
 .content1 summary {padding: 10px 0 10px 10px;
     background-color: #35a7ff;
 }
@@ -162,32 +177,6 @@ ul :nth-child(2) a {
     width: 100%;
 }
 
-.content-1 {
-    width: 100%;
-    margin-top: 1.5rem;
-}
-
-.content-1  h2{
-    color: #111;
-    line-height: 1.5em;
-    font-weight: 400;
-}
-
-.content-1 .textBox p{
-    font-weight: 300;
-    /* text-indent: 1.5em; */
-    color: rgba(0, 0, 0, 0.829);
-    text-align: justify;
-    line-height: 1.6em;
-}
-
-.content-1 .imgBox1 {
-    margin: 1.5rem 0 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
 
 section{
     /* position: relative; tudo que estiver dentro do section vai ser relativo a ele quando aplicarmos absolute =  */
