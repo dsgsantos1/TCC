@@ -90,7 +90,7 @@ ul :nth-child(5) a {
 .content-1 summary {padding: 10px 0 10px 10px;
   
 
-    background-color: #35a7ff;
+    background: linear-gradient(90deg, rgba(53,167,255,1) 16%, rgba(71,181,223,1) 25%, rgba(100,203,173,1) 53%, rgba(169,255,53,1) 88%, rgba(169,255,53,1) 94%);
 }
 
 .content-1 details {
@@ -108,6 +108,7 @@ ul :nth-child(5) a {
     padding: 0 1rem;
     border-radius: 5px;
 }
+
 .content-1 .textBox p{
     font-weight: 300;
     /* text-indent: 1.5em; */

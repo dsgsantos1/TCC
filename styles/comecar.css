@@ -140,6 +140,17 @@ ul :nth-child(2) a {
 
 }
 
+.content1 h3{
+    margin: 1rem 0rem;
+    font-weight: 500;
+
+    width: fit-content;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(169,255,53,1) 16%, rgba(169,255,53,1) 25%, rgba(169,255,53,1) 53%, rgba(71,181,223,1) 88%, rgba(71,181,223,1) 94%);
+
+}
 
 .content1 summary {padding: 10px 0 10px 10px;
     background-color: #35a7ff;
