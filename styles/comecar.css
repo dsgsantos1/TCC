@@ -24,7 +24,7 @@ ul :nth-child(2) a {
 
 }
 
-.title h2{
+.content1 h2{
     text-transform: uppercase;
     font-weight: 400;
 }

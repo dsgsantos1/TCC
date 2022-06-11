@@ -1,3 +1,49 @@
 ul :nth-child(3) a {
     color: #1A61B7 !important;
 }
+
+.title{
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title h1{
+    color: #111;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 500;
+    /* margin-top: 4rem; */
+
+}
+
+.content1{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.content1 h2{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.content1 .caption h2{
+    font-size: 1.6rem;
+    width: fit-content;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(53,167,255,1) 16%, rgba(71,181,223,1) 25%, rgba(100,203,173,1) 53%, rgba(169,255,53,1) 88%, rgba(169,255,53,1) 94%);
+
+}
+
+.content1 .textBox p{
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.829);
+    text-align: justify;
+    line-height: 1.6em;
+}
