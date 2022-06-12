@@ -154,7 +154,8 @@ ul :nth-child(2) a {
 }
 
 .content1 summary {padding: 10px 0 10px 10px;
-    background-color: #35a7ff;
+    background: linear-gradient(90deg, rgba(53,167,255,1) 50%, rgba(53,121,255,1) 100%);
+
 }
 
 .content1 details summary .vigorosa{
