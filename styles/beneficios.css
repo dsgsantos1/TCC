@@ -47,3 +47,7 @@ ul :nth-child(3) a {
     text-align: justify;
     line-height: 1.6em;
 }
+
+.content1 .imgBox{
+    text-align: center;
+}
