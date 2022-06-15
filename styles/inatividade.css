@@ -48,6 +48,12 @@ ul :nth-child(4) a {
     line-height: 1.6em;
 }
 
+.content1 .textBox a{
+    color: #1A61B7;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 .content1 .imgBox1 {
     margin: 1.5rem 0 0 0;
     display: flex;
@@ -105,31 +111,8 @@ ul :nth-child(4) a {
 
 }
 
-.content1 summary {padding: 10px 0 10px 10px;
-    background: linear-gradient(90deg, rgba(53,167,255,1) 50%, rgba(53,121,255,1) 100%);
 
-}
 
-.content1 details summary .vigorosa{
-    background-color: #FF9035;
-}
-.content1 summary .teste{
-    background-color: #FF4735 !important;
-}
-.content1 details {
-    margin-top: 1rem;
-    color: #fff;
-
-    border-radius: 5px;
-    transition: 0.5s;
-    overflow: hidden;
-}
-
-.content1 details .textBox{
-    background-color: #d6f6ff4b;
-    padding: 0 1rem;
-    border-radius: 5px;
-}
 
 .content1 .textBox p{
     font-weight: 300;
@@ -140,6 +123,20 @@ ul :nth-child(4) a {
     line-height: 1.6em;
     margin-top: 15px;
     width: 100%;
+}
+
+.content1 .textBox ul{
+    width: 100%;
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 1.6em;
+    color: rgba(0, 0, 0, 0.829);
+    font-weight: 300;
+    margin-left: 1.6rem;
+}
+
+.content1 .textBox ul li{
+    margin: 0.6rem;
 }
 
 
