@@ -29,53 +29,6 @@ ul :nth-child(4) a {
     font-weight: 400;
 }
 
-.content{
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    margin-bottom: 1.5rem;
-    
-}
-
-.content .textBox p{
-    font-weight: 300;
-    /* text-indent: 1.5em; */
-    color: rgba(0, 0, 0, 0.829);
-    text-align: justify;
-    line-height: 1.6em;
-}
-
-
-
-
-.content .textBox h2{
-    color: #111;
-    font-size: 1.6em;
-    line-height: 1.5em;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.content .textBox h2 span{
-    font-size: 2em;
-}
-
-.content .textBox p{
-    font-weight: 300;
-    color: rgba(0, 0, 0, 0.829);
-    text-align: justify;
-    line-height: 1.6em;
-}
-
-.content .imgBox{
-    width: 600px;
-    display: flex;
-    /* padding-right: 50px; */
-    /* margin-top: 0px; */
-    justify-content: flex-end;
-}
 
 .content1{
     width: 100%;
@@ -137,8 +90,7 @@ ul :nth-child(4) a {
     color: #fff;
     padding: 5px;
     border-radius: 10px;
-    background: linear-gradient(90deg, rgba(53,167,255,1) 16%, rgba(71,181,223,1) 25%, rgba(100,203,173,1) 53%, rgba(169,255,53,1) 88%, rgba(169,255,53,1) 94%);
-
+    background: linear-gradient(90deg, rgba(255,71,53,1) 50%, rgba(255,110,53,1) 100%);
 }
 
 .content1 h3{
@@ -192,15 +144,7 @@ ul :nth-child(4) a {
 
 
 section{
-    /* position: relative; tudo que estiver dentro do section vai ser relativo a ele quando aplicarmos absolute =  */
     width: 100%;
-    /* min-height: 100vh; altura do section vai ocupar no mimino a tela tola */
-    /* padding:15px 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    /* transition: 0.5s; */
     transition: 0.5s;
     background-color: #d6f6ff4b;
 }
