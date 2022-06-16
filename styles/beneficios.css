@@ -45,15 +45,27 @@ ul :nth-child(3) a {
     font-weight: 300;
     color: rgba(0, 0, 0, 0.829);
     text-align: justify;
+    margin-top: 15px;
     line-height: 1.6em;
 }
 
 .content1 .imgBox{
-    text-align: center;
+  display: flex;
+  margin-top: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  
 }
 
 .content1 .imgBox img{
     border-radius: 20px;
+    margin-right: 2rem;
+}
+
+.content1 .imgBox p{
+    margin-top: 0.5rem;
+    font-weight: 100;
+    font-size: 0.9em;
 }
 
 .content1 .textBox ul{
