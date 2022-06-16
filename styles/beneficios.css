@@ -55,3 +55,17 @@ ul :nth-child(3) a {
 .content1 .imgBox img{
     border-radius: 20px;
 }
+
+.content1 .textBox ul{
+    width: 100%;
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 1.6em;
+    color: rgba(0, 0, 0, 0.829);
+    font-weight: 300;
+    margin-left: 1.6rem;
+}
+
+.content1 .textBox ul li{
+    margin: 0.6rem;
+}
