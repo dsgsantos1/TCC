@@ -107,7 +107,7 @@ ul :nth-child(4) a {
     color: #fff;
     padding: 5px;
     border-radius: 10px;
-    background: linear-gradient(90deg, rgba(169,255,53,1) 16%, rgba(169,255,53,1) 25%, rgba(169,255,53,1) 53%, rgba(71,181,223,1) 88%, rgba(71,181,223,1) 94%);
+    background: linear-gradient(90deg, rgba(255,110,53,1) 50%, rgba(255,185,53,1) 100%);
 
 }
 
