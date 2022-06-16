@@ -23,13 +23,13 @@ ul :nth-child(1) a {
 
 .content .textBox{
     position: relative;
-    max-width: 600px;
+    max-width: 650px;
 
 }
 
 .content .textBox h1{
     color: black;
-    font-size: 4em;
+    font-size: 3em;
     line-height: 1.5em;
     font-weight: 600;
     text-transform: uppercase;

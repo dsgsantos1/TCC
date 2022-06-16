@@ -51,3 +51,7 @@ ul :nth-child(3) a {
 .content1 .imgBox{
     text-align: center;
 }
+
+.content1 .imgBox img{
+    border-radius: 20px;
+}
